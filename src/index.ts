@@ -22,9 +22,9 @@ client.on("ready", async () => {
   } else {
     setlang('en');
   }
-  const guild = client.guilds.cache.get('1165841460751507468');
+  const guild = client.guilds.cache.get('1267871382440509480');
   if (guild) {
-    const channel = guild.channels.cache.get('1165841460751507468');
+    const channel = guild.channels.cache.get('1267871382440509480');
 
     if (channel) {
       (channel as TextChannel).send({ content: 'Hello world' }).catch(error => {});
@@ -41,7 +41,7 @@ client.on("ready", async () => {
   const unixTimestamp = 1677642874;
   const dateFromTimestamp = new Date(unixTimestamp * 1000);
   const r = new Discord.RichPresence()
-    .setApplicationId('1119851163530051685')
+    .setApplicationId('1267871382440509480')
     .setType('PLAYING')
     .setURL('https://discord.gg/YqwyCxjhJT')
     .setName('Zsenpai Community')
