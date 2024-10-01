@@ -19,4 +19,4 @@ let db = require("quick.db");
 
 client.userData = new db.table("userData");
 
-client.login("MTI2Nzg2NTQzNDUzOTk1MDA5MQ.GLfFJo.iYNvbVoJNZOwi902hJsManJ5We0P4KXb5gwM9o");
+client.login(client.config.bot.token);
