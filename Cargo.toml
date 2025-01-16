@@ -1,0 +1,15 @@
+[package]
+name = "spectrum_api"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+regex = {  version = "1.10.2" }
+mysql = { version = "24.0.0" }
+chrono = { version = "0.4.31" }
+rocket_cors = { version = "0.6.0" }
+mysql_common = { version = "0.31.0" }
+serde_json = { version = "1.0.107" }
+reqwest = { version = "0.11.22", features = [ "json" ] }
+serde = { version = "1.0.188", features = [ "derive" ] }
+rocket = { version = "0.5.0", features = [ "json", "serde_json", "tls" ] }

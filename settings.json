@@ -1,0 +1,40 @@
+{
+    "products": [
+        {
+            "id": 0,
+            "name": "Product 1",
+            "price": 100.00,
+            "image": "https://storage.hydrus.gg/production/packages/8uNDEPYuop1COjZMkNQRLV9xBsgbPnUDFnurFuWgV2EjqOod2LCJMs6NgJ7XEpXH.jpg",
+            "type": 1
+        },
+        {
+            "id": 1,
+            "name": "Product 2",
+            "price": 100.00,
+            "image": "https://storage.hydrus.gg/production/packages/8uNDEPYuop1COjZMkNQRLV9xBsgbPnUDFnurFuWgV2EjqOod2LCJMs6NgJ7XEpXH.jpg",
+            "type": 1
+        },
+        {
+            "id": 2,
+            "name": "Product 3",
+            "price": 100.00,
+            "image": "https://storage.hydrus.gg/production/packages/8uNDEPYuop1COjZMkNQRLV9xBsgbPnUDFnurFuWgV2EjqOod2LCJMs6NgJ7XEpXH.jpg",
+            "type": 2
+        }
+    ],
+    "creators": [
+        "zBicudin",
+        "MalvaGod"
+    ],
+    "vouchers": [
+        {
+            "id": 0,
+            "name": "BLACKFRIDAY",
+            "discount": 10,
+            "allowedProducts": [
+                0,
+                1
+            ]
+        }
+    ]
+}
